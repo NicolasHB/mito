@@ -1,0 +1,132 @@
+
+
+
+/* space nav link */
+.wrapper-header__nav a {
+  padding: 0 5px;
+  color: #ffffff;
+}
+.wrapper-header__logo a {
+  font-style: normal;
+  font-size: 30px;
+  border: solid white;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #ffffff;
+  box-shadow: 6px 6px red;
+}
+.wrapper-header__logo a span {
+  color: red;
+}
+.wrapper-header__hero {
+  background-image: url(https://images-ext-2.discordapp.net/external/K9X3mIo5-U0qSu9YUwE0IyciFzRqES8CAxaeA_eZ3K8/https/images.unsplash.com/photo-1576398289164-c48dc021b4e1?width=1248&height=936);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper-main {
+  padding: 25px 0px;
+}
+/* welcome section */
+.wrapper-main__welcome {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.wrapper-main-title,
+.wrapper-second-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900px;
+}
+.wrapper-second-block_BC {
+  background-color: #f2f8f2;
+  padding: 50px;
+}
+
+.wrapper-main__welcome-block1 {
+  display: flex;
+  gap: 20px 70px;
+  margin: 50px 200px;
+  align-items: center;
+}
+.wrapper-main__welcome-block1-img {
+  width: 280px;
+  height: 300px;
+}
+/* block 2 find-us */
+
+.justify-box-block2 {
+  justify-content: center;
+}
+.wrapper-city {
+  border: solid;
+  border-width: 5px;
+  border-color: #b4cfb0;
+  box-shadow: 3px 3px red;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 90px;
+  margin: 70px;
+  gap: 20px;
+  background-color: #ffffff;
+}
+.icone-city {
+  font-size: 300%;
+  color: #000000;
+}
+.red {
+  color: red;
+}
+/*===============sections Teams========*/
+.picture-block3 {
+  width: 200px;
+  height: 250px;
+  
+}
+.wrapper-teams__bloc1{
+  text-align: center;
+  margin: 50px, 300px;
+  gap: 20px, 70px;
+  
+}
+.wrapper-teams__bloc1-description h3{
+  font-size: 30px;
+  padding-bottom: 40px;
+  font-family: "nunito", sans-serif;
+
+}
+.picture-relative-left{
+  margin: 45%;
+  position: relative; top: 0px; right: 10px;
+}
+.wapper-title-block3{
+  
+  font-size: 30px;
+  padding-bottom: 40px;
+  font-family: "nunito", sans-serif;
+}
+.wrapper-teams img{
+  height: 300px;
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgb(136,136,136);
+  text-align: center;
+}
+/*=====PRODUCTS=========*/
+.wrapper-product{
+  
+}
+.wrapper-btn{
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #ffffff;
+  width: 20%;
+  margin: 60px auto;
+}
+
+
+/*=====FOOTERS==========*/
+footer {
+  padding: 50px 0px;
+}

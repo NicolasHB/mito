@@ -1,0 +1,44 @@
+@import "reset.css";
+/* helpers */
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #000000;
+}
+/* couleur de fond */
+.bg_primary {
+  background-color: #b4cfb0;
+}
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+  color: red;
+}
+.d-flex {
+  display: flex;
+}
+.py-section{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.f-reverse{
+  flex-direction: row-reverse;
+}
+.bg-section{
+  background-color: #f2f8f2;
+}
+.text-center{
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header
+========= */
+header {
+  padding: 20px;
+  color: white;
+  display: flex;
+  /* permet de déplacer la navigation sur la droite */
+  justify-content: space-between;
+}
