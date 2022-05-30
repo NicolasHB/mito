@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/a-propos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <!--typo 'Nunito 400,500,700, 900'-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--link icone-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+    "
+    />
+    <title>Contact</title>
 </head>
 <body>
-    <h1></h1>
+    <!-- wrapper header-hero -->
+    <div class="wrapper-header">
+      <!-- header -->
+      <header class="container bg-primary">
+        <!-- logo -->
+        <div class="wrapper-header__logo font-nunito">
+          <a href=""><span>mi</span>To<span>.</span></a>
+        </div>
+        <!-- navigation -->
+        <nav class="wrapper-header__nav bg-primary">
+          <a href="/index.html">Accueil</a>
+          <a href="/produits.html">Produits</a>
+          <a href="/a-propos.html">A propos</a>
+          <a href="/contact.html">Nous contactez</a>
+        </nav>
+      </header>
+      <!-- end header -->
+      <!-- hero -->
+      <div class="wrapper-header__hero"></div>
+      <!-- end hero -->
+    </div>
+    <!-- end wrapper -->
+    <!--Body-->
+    <main class="wrapper-main font-nunito container d-flex " id="main">
+      <!-- Section -->
+      <section class="py-section ">
+          <h1 class="wrapper-main-title">Contact</h1>
+          <form>
+          <div class=""> 
+              <!--Nom--> 
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+          </div>
+          <div class="">
+            <!--Prénom-->
+            <label for="name">Prénom :</label>
+            <input type="text" id="name" name="user_name">
+            </div>
+            <!--email-->
+            <div class="">
+                <label for="mail">e-mail&nbsp;:</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <!--Description-->
+            <div class="">
+                <label for="description">description</label>
+                <input type="text" value="description">
+
+            </div>
+            <!--send Button -->
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+          </div>
+          </form>
+        
+
+      </section>
     
 </body>
 </html>

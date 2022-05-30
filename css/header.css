@@ -1,4 +1,5 @@
 @import "reset.css";
+
 /* helpers */
 .container {
   padding-left: 100px;
@@ -37,8 +38,23 @@ html {
 ========= */
 header {
   padding: 20px;
-  color: white;
+  color: #fff;
   display: flex;
   /* permet de déplacer la navigation sur la droite */
   justify-content: space-between;
+}
+/*Products*/
+.wrapper-btn{
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #fff;
+  width: 20%;
+  margin: 60px auto;
+  
+}
+
+
+/*=====FOOTERS==========*/
+footer {
+  padding: 50px 0px;
 }

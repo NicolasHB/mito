@@ -2,9 +2,16 @@
 
 
 /* space nav link */
+.wrapper-header{
+  background-color: #b4cfb0;
+}
 .wrapper-header__nav a {
   padding: 0 5px;
   color: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  
+  
 }
 .wrapper-header__logo a {
   font-style: normal;
@@ -129,4 +136,6 @@
 /*=====FOOTERS==========*/
 footer {
   padding: 50px 0px;
+  color: #ffffff;
+  background-color: #b4cfb0;
 }
