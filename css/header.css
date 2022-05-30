@@ -17,17 +17,17 @@
 .d-flex {
   display: flex;
 }
-.py-section{
+.py-section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.f-reverse{
+.f-reverse {
   flex-direction: row-reverse;
 }
-.bg-section{
+.bg-section {
   background-color: #f2f8f2;
 }
-.text-center{
+.text-center {
   text-align: center;
 }
 html {
@@ -44,16 +44,31 @@ header {
   justify-content: space-between;
 }
 /*Products*/
-.wrapper-btn{
+.wrapper-btn {
   margin-top: 60px;
   padding: 30px;
   background-color: #fff;
   width: 20%;
   margin: 60px auto;
-  
 }
-
-
+h1 {
+  font-size: 6rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+}
+.overlay {
+  background-color: #000;
+  opacity: 0.3;
+  width: 100%;
+  height: 50%%;
+  background: rgb(255, 126, 2);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 126, 2, 1) 0%,
+    rgba(125, 64, 0, 1) 100%
+  );
+}
 /*=====FOOTERS==========*/
 footer {
   padding: 50px 0px;
